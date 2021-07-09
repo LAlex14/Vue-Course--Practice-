@@ -56,16 +56,16 @@ export default {
         enteredDesc = this.$refs.descInput.value,
         enteredLink = this.$refs.linkInput.value;
 
-      //   if (enteredTitle.trim() && enteredDesc.trim() && enteredLink) {
-      //     console.log('ceao');
-      //     this.addResource(enteredTitle, enteredDesc, enteredLink);
-      //   } else {
-      //     alert('inputs must be filled out');
-      //   }
+      if (enteredTitle.trim() && enteredDesc.trim() && enteredLink) {
+        this.addResource(enteredTitle, enteredDesc, enteredLink);
+        this.$refs.titleInput.value = '';
+        this.$refs.descInput.value = '';
+        this.$refs.linkInput.value = '';
+      } else this.inputIsInvalid = true;
 
-      enteredTitle.trim() && enteredDesc.trim() && enteredLink
-        ? this.addResource(enteredTitle, enteredDesc, enteredLink)
-        : (this.inputIsInvalid = true);
+      // enteredTitle.trim() && enteredDesc.trim() && enteredLink
+      //   ? this.addResource(enteredTitle, enteredDesc, enteredLink)
+      //   : (this.inputIsInvalid = true);
     },
   },
 };

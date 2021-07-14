@@ -6,6 +6,7 @@
 
 ### - Vue features that I used in `Course Project The Learning Resources App`:
 
+- data properties and methods
 - components
 - keep-alive with Dynamic Components :is
 - v-bind:, v-on@, v-for, v-if, v-slot#
@@ -17,3 +18,9 @@
 - computed Properties
 - template refs
 - teleport
+
+### - Also i learned about:
+
+- v-model
+- Vue Lifecycle Hooks
+- Watchers...

@@ -2,7 +2,7 @@
 
 ### - Earlier I discovered what is React.Js and how it works. I also heard that VueJS mixes the best of React and Angular, because of that, I decided to start an online course about it.
 
-### - In this repository I will upload the practical projects i've done over the course and i'll try to specify what proprietes i used for each.
+### - In this repository I will upload the practical projects I've done over the VueJS course and I'll try to specify what properties I used for each.
 
 ### - Vue features that I used in the course project `The Learning Resources App`:
 

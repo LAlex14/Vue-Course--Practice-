@@ -1,3 +1,6 @@
-# Course Project The Learning Resources App
+# Course Project Learning Experiences App
 
-![project demonstration](https://github.com/LAlex14/Vue-Course--Practice-/blob/master/Course%20Project%20The%20Learning%20Resources%20App/Demonstration.gif?raw=true)
+<p align="center">
+  App Demo gif:
+  <img src="https://github.com/LAlex14/Vue-Course--Practice-/blob/master/Learning%20Experiences%20App/Demonstration.gif?raw=true" alt="app demo" />
+</p>
